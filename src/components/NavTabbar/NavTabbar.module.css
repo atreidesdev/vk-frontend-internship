@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  background: var(--mm-card-bg);
+  border-bottom: 1px solid var(--mm-card-border);
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navLink {
+  color: var(--mm-text-muted);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+
+.navLink:hover {
+  color: var(--mm-text);
+  background: var(--mm-btn-secondary-bg);
+}
+
+.navLinkActive {
+  color: var(--mm-primary-text);
+  background: var(--mm-primary);
+  font-weight: 600;
+}

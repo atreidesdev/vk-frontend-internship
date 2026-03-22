@@ -1,0 +1,40 @@
+{
+  "name": "vk-frontend-internship",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:mock": "vite --mode mock",
+    "build": "tsc && vite build",
+    "build:pages": "tsc && vite build --mode pages",
+    "deploy": "npm run build:pages && gh-pages -d dist",
+    "preview": "vite preview",
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@vkontakte/icons": "latest",
+    "@vkontakte/vk-bridge": "latest",
+    "@vkontakte/vkui": "latest",
+    "axios": "latest",
+    "effector": "latest",
+    "effector-react": "latest",
+    "framer-motion": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "latest",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.4.2",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}

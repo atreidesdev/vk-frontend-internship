@@ -1,0 +1,1 @@
+export { RemoveFromFavoritesModal } from "./RemoveFromFavoritesModal";

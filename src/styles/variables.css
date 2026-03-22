@@ -1,0 +1,28 @@
+body,
+#root,
+button,
+input,
+select,
+textarea {
+  font-family:
+    "Overpass",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+
+:root {
+  --mm-font: "Overpass", -apple-system, BlinkMacSystemFont, sans-serif;
+  --mm-card-bg: #f8f9fa;
+  --mm-card-border: #bfc8d1;
+  --mm-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --mm-card-shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.08);
+  --mm-primary: #40406f;
+  --mm-primary-hover: #6060a3;
+  --mm-primary-text: #dee2ff;
+  --mm-btn-secondary-bg: #e2e8f0;
+  --mm-btn-secondary-border: #cbd5e1;
+  --mm-btn-secondary-hover: #cbd5e1;
+  --mm-text: #1e293b;
+  --mm-text-muted: #475569;
+}

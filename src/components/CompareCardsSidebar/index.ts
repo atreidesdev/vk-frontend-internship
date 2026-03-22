@@ -1,0 +1,1 @@
+export { CompareCardsSidebar } from "./CompareCardsSidebar";
